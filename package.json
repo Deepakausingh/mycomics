@@ -1,0 +1,11 @@
+{
+  "name": "my-comic-project",
+  "version": "1.0.0",
+  "private": true,
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "scripts": {
+    "start": "concurrently \"npm start --prefix frontend\" \"npm run dev --prefix backend\""
+  }
+}
